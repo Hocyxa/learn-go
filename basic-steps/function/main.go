@@ -19,7 +19,8 @@ func Sum(num1 float64, num2 float64) float64 {
 	return num1 + num2
 }
 func foo(a *int) {
-	fmt.Print(a)
+	fmt.Println(a)
+	*a += 10
 }
 
 func main() {
@@ -27,8 +28,10 @@ func main() {
 	sum := Sum(112346, 2)
 	procedure(fmt.Sprint(sum))
 	a := 1
-	fmt.Print(&a)
-	fmt.Println()
+	fmt.Println(&a)
+	fmt.Println(a)
 	foo(&a)
+	fmt.Println(&a)
+	fmt.Println(a)
 
 }
