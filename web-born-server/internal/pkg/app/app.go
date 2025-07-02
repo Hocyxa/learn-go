@@ -3,9 +3,9 @@ package app
 import (
 	"log"
 
-	"example.com/rest_full_example/internal/app/endpoint"
-	"example.com/rest_full_example/internal/app/middleware"
-	"example.com/rest_full_example/internal/app/service"
+	"github.com/Hocyxa/learn-go/web-born-server/internal/app/endpoint"
+	"github.com/Hocyxa/learn-go/web-born-server/internal/app/middleware"
+	"github.com/Hocyxa/learn-go/web-born-server/internal/app/service"
 	"github.com/labstack/echo/v4"
 )
 

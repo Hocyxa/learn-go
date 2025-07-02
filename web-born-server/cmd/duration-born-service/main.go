@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 
-	"example.com/rest_full_example/internal/pkg/app"
+	"github.com/Hocyxa/learn-go/web-born-server/internal/pkg/app"
 )
 
 func main() {
