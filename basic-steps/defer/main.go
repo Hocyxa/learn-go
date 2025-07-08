@@ -15,6 +15,7 @@ func foo() {
 	fmt.Println("foo")
 }
 
+// TODO Посмотреть как дефер работает с слайсами
 func main() {
 	fmt.Println("Hello")
 	foo()

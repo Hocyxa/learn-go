@@ -31,4 +31,6 @@ func array() {
 func main() {
 	array()
 	variables()
+	const t = "qwewe"
+	fmt.Println(t)
 }
