@@ -32,7 +32,7 @@ func New() (*App, error) {
 
 func (a *App) Run() error {
 	log.Println("Server starting")
-	err := a.echo.Start(":8080")
+	err := a.echo.Start(":80")
 	if err != nil {
 		log.Fatal(err)
 	}
